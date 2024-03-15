@@ -31,7 +31,7 @@ header {
 }
 
 .menu_principal {
-    max-width: 160vh;
+    max-width: 100vh;
     font-family: "titan one", sans-serif;
     color: white;
     font-size: 30px;

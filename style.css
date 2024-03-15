@@ -1,0 +1,133 @@
+/* Angkor */
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+/* Titan One */
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Titan+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black url(images/fundo_pag.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+header {
+    
+    font-size: x-large;
+    font-family: "Titan one", sans-serif;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+.menu {
+    height: 300px;
+  
+    box-shadow: inset 1px 1px 5px black;
+
+}
+
+.menu_principal {
+    width: 160vh;
+    font-family: "titan one", sans-serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 70px;
+    left: 50%;
+    top: 0%;
+    
+    position: absolute;
+   
+    transform: translate(-50%, 50%);
+}
+
+.menu_principal:hover {
+    width: 160vh;
+    padding-top:200px;
+    background-color: rgba(211, 211, 211, 0.425);
+    
+    top: -50%;
+}
+
+#principal {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    border: 1px solid black;
+}
+
+#products {
+    position: relative;
+    background: black url(images/clothes_menu.jpg) center bottom no-repeat local;
+    background-size: cover;
+}
+
+#about-us {
+    position: relative;
+    background: black url(images/about-us_menu.jpg) 100% center no-repeat local;
+    background-size: cover;
+}
+
+#support {
+    position: relative;
+    background: black url(images/support_menu.jpg) 100% center no-repeat local;
+    background-size: cover;
+}
+
+#login {
+    position: relative;
+    background: black url(images/login_menu.jpg) center center no-repeat local;
+    background-size: cover;
+}
+
+#rodape {
+    
+    background-color: black;
+    font-family: "Titan One", sans-serif;
+    text-align: center;
+    height: 44px;
+    color: black;
+}
+
+#rodape > p {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+}
+
+#rodape > a {
+    margin-top: 5px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+#menu {
+    text-align: left;
+}
+
+nav#menu > a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 30px;
+
+
+}
+
+nav#menu > a:hover {
+    background-color: rgba(255, 255, 255, 0.445);
+    padding: 10px;
+    transition: 0.3s;
+}

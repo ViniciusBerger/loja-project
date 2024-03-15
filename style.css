@@ -33,9 +33,9 @@ header {
 }
 
 .menu_principal {
-    max-width: 100vh;
+    max-width: 160vh;
     font-family: "titan one", sans-serif;
-    color: white;
+    color: transparent;
     font-size: 30px;
     text-decoration: none;
     padding: 70px;
@@ -48,6 +48,7 @@ header {
 }
 
 .menu_principal:hover {
+    color: black;
     width: 160vh;
     padding-top:200px;
     background-color: rgba(211, 211, 211, 0.425);
